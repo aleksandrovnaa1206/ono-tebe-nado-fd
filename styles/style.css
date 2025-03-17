@@ -1,1 +1,131 @@
-/* место для вашего кода */
+body {
+    margin: auto;
+    font-family: Raleway, sans-serif;
+    font-weight: 400px;
+    background-color: #fff;
+    width: 1100px;
+}
+
+/* h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+.content-section {
+    box-sizing: border-box;
+} */
+
+.header {
+    display: grid;
+    height: 293px;
+    grid-template-columns: 1fr min-content 1fr;
+    align-items: center;
+    padding: 92px 50px 96px 50px;
+    font-size: 18px;
+}
+
+.header__links-list {
+    display: flex;
+    gap: 31px;
+    list-style: circle;
+    margin-bottom: 3px;
+    text-underline-offset: 4px;
+}
+
+.header__link_active {
+    text-decoration: none;
+}
+
+.header__links-list-item_no-bullit {
+    list-style: none;
+}
+
+.header__links-list-item {
+    flex-direction: row;
+}
+
+.header__logo-image {
+    width: 148px;
+    height: 105px;
+}
+
+.address {
+    justify-self: end;
+    font-style: normal;
+    margin-right: 40px;
+    line-height: 24px;   
+}
+
+.header__address {
+    text-underline-offset: 4px;
+}
+
+.cover {
+    position: relative;
+    background: url("../images/cover.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 160px 50px 207px;
+    color: #fff;
+    line-height: 133px
+}
+
+.overlay {
+    position: absolute;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.cover__title {
+    position: relative;
+    font-size: 100px;
+    letter-spacing: 0.3em;
+}
+
+.aligned-text_center {
+    display: block;
+    text-align: center;
+}
+.aligned-text_right {
+    display: block;
+    text-align: right;
+}
+
+.no-letter-spacing {
+    letter-spacing: 0;
+}
+
+.cover__description {
+    position: relative;
+    display: flex;
+    font-size: 22px;
+    font-weight: 500;
+    text-transform: uppercase;
+    justify-content: space-between;
+    line-height: 0;
+    align-items: center;
+}
+
+.cover__description-text {
+    word-spacing: 18px;
+}
+
+.bet-button {
+    /* position: relative; */
+    padding: 0;
+    border: none;
+    outline: none;
+    width: 256px;
+    height: 51px;
+    color: #fff;
+    border: 1px solid #fff;
+    text-transform: uppercase;
+	background-color: transparent;
+}
